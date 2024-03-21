@@ -1,9 +1,12 @@
 
 var Resume = {
-    hi : "sn",
-    age : 20,
-    gender = " male",
-    skills = ["js", "html", "css"],
-    education qualification = [10,12,"full stack developer"]
+    Myself : "sandy",
+    age : 5,
+    gender : " male",
+    skills : ["js", "html", "css"],
+    education : ["Sslc","Hsc","B.tech(Mech)","Full Stack Developer"]
 }
+Resume.Nationality = "Indian"
+delete Resume.age
+Resume.skills[3] = "JSON"
 console.log(Resume)
